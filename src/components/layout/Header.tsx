@@ -1,4 +1,4 @@
-import Logo from "../common/logo";
+import Logo from "../common/Logo";
 import LogIn from "../common/LogIn";
 const Header = () => {
   return (

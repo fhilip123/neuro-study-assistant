@@ -12,7 +12,7 @@ const LogIn = ({ width, height }: Props) => {
     <div>
       <button
         type="button"
-        className="btn btn-light custom-login"
+        className="btn btn-outline-light custom-login"
         style={style}
       >
         Log In
