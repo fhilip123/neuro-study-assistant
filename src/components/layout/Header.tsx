@@ -8,7 +8,7 @@ const Header = () => {
         <ul className="nav">
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">
-              <LogIn width={100} height={50}/>
+              <LogIn width={100} height={50} text="Log In" />
             </a>
           </li>
         </ul>

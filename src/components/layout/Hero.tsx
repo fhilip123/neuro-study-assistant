@@ -9,9 +9,9 @@ const Hero = () => {
           <div className="col-4 mb-4 mb-md-0 text-center text-md-start">
             <Logo size={50} /> <br />
             <h2>Your neuroscience-based learning assistant.</h2>
-            <button className="btn btn-outline-dark mt-3">
+            <a className="btn btn-outline-dark mt-3" href="#">
               Start Learning
-            </button>
+            </a>
           </div>
           <div className="col-1"></div>
           <div className="col-6" style={{ height: "600px" }}>

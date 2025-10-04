@@ -1,9 +1,10 @@
 interface Props {
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
+  text?: string;
 }
 
-const LogIn = ({ width, height }: Props) => {
+const LogIn = ({ width, height, text }: Props) => {
   const style: React.CSSProperties = {
     width,
     height,
@@ -15,7 +16,7 @@ const LogIn = ({ width, height }: Props) => {
         className="btn btn-outline-light custom-login"
         style={style}
       >
-        Log In
+        {text}
       </button>
     </div>
   );
